@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+/* You can add any additional styling here for the table or body if needed */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+table {
+  margin: 20px 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+input[type="button"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: #f0f0f0;
+}
